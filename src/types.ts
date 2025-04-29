@@ -1,1 +1,1 @@
-export type PermissionsType = "MANAGE_USERS" | "MANAGE_CHANNELS" | "MANAGE_ROLES" | "MANAGE_ARTICLES"
+export type RoleType = "ADMIN" | "USER" | "AUTHOR"
