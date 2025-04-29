@@ -1,0 +1,1 @@
+export type PermissionsType = "MANAGE_USERS" | "MANAGE_CHANNELS" | "MANAGE_ROLES" | "MANAGE_ARTICLES"

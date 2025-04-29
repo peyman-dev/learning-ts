@@ -1,4 +1,5 @@
 "use strict";
+// import { PermissionsType } from "./types";
 // enum Role {
 //   "ADMIN",
 //   "DEVELOPER",
@@ -50,20 +51,49 @@
 // }
 // const Peyman = new AdminGenerator("#geek", "ADMIN")
 // console.log(Peyman)
-class UserData {
-    constructor(id, age, firstName, lastName) {
-        this.id = id;
-        this.age = age;
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-}
-const users = [];
-const user = {
-    age: 20,
-    firstName: "Peyman",
-    lastName: "Ahmadi",
-    id: "unique-id-91248759-492814219-40duuuud-43294850",
-};
-users.push(user);
-console.log(users);
+// class UserData {
+//   id: string;
+//   age: number;
+//   firstName: string;
+//   lastName: string;
+//   constructor(id: string, age: number, firstName: string, lastName: string) {
+//     this.id = id;
+//     this.age = age;
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//   }
+// }
+// const users: UserData[] = [];
+// const user: UserData = {
+//   age: 20,
+//   firstName: "Peyman",
+//   lastName: "Ahmadi",
+//   id: "unique-id-91248759-492814219-40duuuud-43294850",
+// };
+// users.push(user);
+// console.log(users)
+// class Person {
+//   firstName: string;
+//   lastName: string;
+//   age: number;
+//   constructor(firstName: string, lastName: string, age: number) {
+//     (this.firstName = firstName), (this.lastName = lastName), (this.age = age);
+//   }
+// }
+// type Roles = "ADMIN" | "AUTHOR" | "USER";
+// class Admin extends Person {
+//   role: Roles;
+//   private permissions: PermissionsType[];
+//   constructor(
+//     firstName: string,
+//     lastName: string,
+//     age: number,
+//     role: Roles,
+//     permissions: PermissionsType[]
+//   ) {
+//     super(firstName, lastName, age);
+//     this.role = role;
+//     this.permissions = permissions;
+//   }
+// }
+// const PromotePeyman = new Admin("Peyman", "Ahmadi", 20, "ADMIN", ["MANAGE_ARTICLES"]);
